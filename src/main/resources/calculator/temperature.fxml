@@ -85,7 +85,7 @@
          </children>
       </GridPane>
       <Text layoutX="97.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20;" text="TEMPERATURE" wrappingWidth="141.0" />
-      <ImageView fx:id="lengthBack" fitHeight="37.0" fitWidth="42.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#openMainView" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="temperatureBack" fitHeight="37.0" fitWidth="42.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#openMainView" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@back.png" />
          </image>

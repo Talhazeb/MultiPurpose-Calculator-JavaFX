@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.bmi">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.age">
    <children>
-      <Text layoutX="147.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20;" text="BMI" wrappingWidth="41.625" />
-      <ImageView fx:id="bmiBack" fitHeight="37.0" fitWidth="42.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#openMainView" pickOnBounds="true" preserveRatio="true">
+      <Text layoutX="147.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20;" text="AGE" wrappingWidth="41.625" />
+      <ImageView fx:id="ageBack" fitHeight="37.0" fitWidth="42.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#openMainView" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@back.png" />
          </image>
       </ImageView>
+      <ComboBox fx:id="ca1" layoutX="14.0" layoutY="91.0" prefHeight="26.0" prefWidth="94.0" />
+      <ComboBox fx:id="ca2" layoutX="128.0" layoutY="91.0" prefHeight="26.0" prefWidth="94.0" />
+      <ComboBox fx:id="ca3" layoutX="233.0" layoutY="91.0" prefHeight="26.0" prefWidth="88.0" />
+      <Label fx:id="lbl_t1" layoutX="154.0" layoutY="185.0" text="0" />
    </children>
 </Pane>

@@ -220,4 +220,13 @@ public class cal extends GridPane implements Initializable {
         Stage Window = (Stage) img_numeral.getScene().getWindow();
         Window.setScene(new Scene(NumeralView, 335, 600));
     }
+
+    @FXML
+    ImageView img_age;
+
+    public void openAgeView() throws IOException {
+        Parent AgeView = FXMLLoader.load(getClass().getResource("AGE.fxml"));
+        Stage Window = (Stage) img_age.getScene().getWindow();
+        Window.setScene(new Scene(AgeView, 335, 600));
+    }
 }
